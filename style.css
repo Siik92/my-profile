@@ -1,0 +1,101 @@
+h1 {
+  color: #000000;
+	font-size: 50px;
+font-family: 'Roboto', sans-serif;;
+	text-align: center;
+
+}
+
+h2 {
+  color: #1A374D;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;;
+	text-align: center;
+
+}
+
+body {
+  color: black;   
+  font-family: 'Lora', serif; 
+	;background-color: #21325E;
+	font-size: 20px
+
+}
+
+a {
+  color: indigo;
+  text-decoration: none;;
+}
+
+div {
+	background:white ;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+		width: 700px;
+	margin: 40px auto;
+	border-radius: 6px;
+	text-align: center;
+}	
+
+.img-circle {
+	border-radius: 15%;
+
+}
+
+.list-inline {
+	padding-left: 0px;
+	list-style: none;
+ ;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+ ;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200, 200, 200) ;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black ;
+}
+
+/* Responsive design */
+
+@media (max-width: 1440px) {
+    .card-design {
+        width:  950px;
+        transition: 0.3s;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .card-design {
+        width:  720px;
+        transition: 0.3s;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+    .card-design {
+        width:  480px;
+        transition: 0.3s;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .card-design {
+        width:  390px;
+        transition: 0.3s;
+    }
+
+}
